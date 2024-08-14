@@ -117,7 +117,7 @@ local Tune = {}
 	--		Use sliders to manipulate values
 	--		Edit everything as if your car is NATURALLY aspirated, or as if it lacks a turbo.
 	
-	Tune.Horsepower		= 250
+	Tune.Horsepower		= 4500
 	Tune.IdleRPM		= 700
 	Tune.PeakRPM		= 6000
 	Tune.Redline		= 7000
@@ -191,14 +191,14 @@ local Tune = {}
 	Tune.Ratios			= {			 --		SPEED [SPS]	 = (Wheel diameter(studs) * math.pi * RPM) / (60 * Gear Ratio * Final Drive * Multiplier)
 		--[[ R ]]		18.641		,--		WHEEL TORQUE = Engine Torque * Gear Ratio * Final Drive * Multiplier
 		--[[ N ]]		0			,
-		--[[ 1 ]]		16.641		,
-		--[[ 2 ]]		12.342		,
-		--[[ 3 ]]		9.812		,
-		--[[ 4 ]]		7.765		,
-		--[[ 5 ]]		6.272		,
-		--[[ 6 ]]		5.045		,
-		--[[ 7 ]]		4.572		,
-		--[[ 8 ]]		4.072		
+		--[[ 1 ]]		12.641		,
+		--[[ 2 ]]		8.342		,
+		--[[ 3 ]]		6.812		,
+		--[[ 4 ]]		5.765		,
+		--[[ 5 ]]		4.272		,
+		--[[ 6 ]]		3.045		,
+		--[[ 7 ]]		2.572		,
+		--[[ 8 ]]		1.072		
 	}
 	Tune.FDMult			= 1			-- Ratio multiplier (keep this at 1 if car is not struggling with torque)
 	
